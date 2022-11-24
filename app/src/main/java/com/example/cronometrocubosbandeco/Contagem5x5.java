@@ -41,9 +41,7 @@ public class Contagem5x5 implements Runnable{
             int hours = (int) ((since / (MILLIS_TO_HOURS))%24);
             int millis = (int) since % 1000;
             String TempoCRONO = (String.format("%02d:%02d:%02d.%03d", hours, minutes, seconds, millis));
-            /*((Cronometro2x2)cContext).updateTimerText(TempoCRONO);
-            ((Cronometro3x3)cContext).updateTimerText(TempoCRONO);
-            ((Cronometro4x4)cContext).updateTimerText(TempoCRONO);*/
+
             ((Cronometro5x5)cContext).updateTimerText(TempoCRONO);
 
 
